@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/krzysztofreczek/go-structurizr/pkg/model"
+	"github.com/nikchis/go-structurizr/pkg/model"
 )
 
 func (v view) isDebugMode() bool {

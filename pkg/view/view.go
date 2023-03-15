@@ -4,8 +4,8 @@ import (
 	"image/color"
 	"io"
 
-	"github.com/krzysztofreczek/go-structurizr/pkg/model"
-	"github.com/krzysztofreczek/go-structurizr/pkg/yaml"
+	"github.com/nikchis/go-structurizr/pkg/model"
+	"github.com/nikchis/go-structurizr/pkg/yaml"
 	"github.com/pkg/errors"
 )
 

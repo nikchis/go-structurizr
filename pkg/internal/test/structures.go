@@ -1,6 +1,6 @@
 package test
 
-import "github.com/krzysztofreczek/go-structurizr/pkg/model"
+import "github.com/nikchis/go-structurizr/pkg/model"
 
 type PublicInterface interface {
 	DoSomethingPublic()
