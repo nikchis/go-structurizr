@@ -51,7 +51,7 @@ rectangle {{group_name}} <<_GROUP>> {
 	{{shape}} "=={{component_name}}\n<size:10>[{{component_kind}}{{component_technology}}]</size>\n\n{{component_desc}}" <<{{shape_style}}>> as {{component_id}}
 }`
 	snippetComponentConnection = `
-{{component_id_from}} .[{{line_color_hash}}].> {{component_id_to}} : ""`
+{{component_id_from}} -[{{line_color_hash}}]-> {{component_id_to}} : ""`
 
 	paramComponentID          = "{{component_id}}"
 	paramComponentIDFrom      = "{{component_id_from}}"
