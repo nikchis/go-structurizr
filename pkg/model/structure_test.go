@@ -3,7 +3,7 @@ package model_test
 import (
 	"testing"
 
-	"github.com/krzysztofreczek/go-structurizr/pkg/model"
+	"github.com/nikchis/go-structurizr/pkg/model"
 	"github.com/stretchr/testify/require"
 )
 

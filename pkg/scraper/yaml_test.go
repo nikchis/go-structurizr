@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/krzysztofreczek/go-structurizr/pkg/model"
-	"github.com/krzysztofreczek/go-structurizr/pkg/yaml"
+	"github.com/nikchis/go-structurizr/pkg/model"
+	"github.com/nikchis/go-structurizr/pkg/yaml"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,8 +5,8 @@ import (
 	"image/color"
 	"testing"
 
-	"github.com/krzysztofreczek/go-structurizr/pkg/model"
-	"github.com/krzysztofreczek/go-structurizr/pkg/view"
+	"github.com/nikchis/go-structurizr/pkg/model"
+	"github.com/nikchis/go-structurizr/pkg/view"
 	"github.com/stretchr/testify/require"
 )
 
@@ -22,7 +22,6 @@ func TestNewView_empty(t *testing.T) {
 	outString := out.String()
 
 	expectedContent := `This diagram has been generated with go-structurizr 
-[https://github.com/krzysztofreczek/go-structurizr]
 
 @startuml
 
